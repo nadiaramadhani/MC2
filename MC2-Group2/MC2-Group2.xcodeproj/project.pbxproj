@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9B9DBA4B285E0B6D00675C42 /* MC2_Group2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DBA4A285E0B6D00675C42 /* MC2_Group2App.swift */; };
-		9B9DBA4D285E0B6D00675C42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DBA4C285E0B6D00675C42 /* ContentView.swift */; };
+		9B9DBA4D285E0B6D00675C42 /* onBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DBA4C285E0B6D00675C42 /* onBoardingView.swift */; };
 		9B9DBA4F285E0B6E00675C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DBA4E285E0B6E00675C42 /* Assets.xcassets */; };
 		9B9DBA52285E0B6E00675C42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DBA51285E0B6E00675C42 /* Preview Assets.xcassets */; };
 		9B9DBA5C285E0B6E00675C42 /* MC2_Group2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DBA5B285E0B6E00675C42 /* MC2_Group2Tests.swift */; };
 		9B9DBA66285E0B6E00675C42 /* MC2_Group2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DBA65285E0B6E00675C42 /* MC2_Group2UITests.swift */; };
 		9B9DBA68285E0B6E00675C42 /* MC2_Group2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DBA67285E0B6E00675C42 /* MC2_Group2UITestsLaunchTests.swift */; };
+		9BB377FE286315F4007A3640 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB377FD286315F4007A3640 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		9B9DBA47285E0B6C00675C42 /* MC2-Group2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC2-Group2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DBA4A285E0B6D00675C42 /* MC2_Group2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC2_Group2App.swift; sourceTree = "<group>"; };
-		9B9DBA4C285E0B6D00675C42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B9DBA4C285E0B6D00675C42 /* onBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingView.swift; sourceTree = "<group>"; };
 		9B9DBA4E285E0B6E00675C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9DBA51285E0B6E00675C42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B9DBA57285E0B6E00675C42 /* MC2-Group2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MC2-Group2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		9B9DBA61285E0B6E00675C42 /* MC2-Group2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MC2-Group2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DBA65285E0B6E00675C42 /* MC2_Group2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC2_Group2UITests.swift; sourceTree = "<group>"; };
 		9B9DBA67285E0B6E00675C42 /* MC2_Group2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC2_Group2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BB377FD286315F4007A3640 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../../../../Desktop/MC2-Group2/MC2-Group2/View/Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				9B9DBA4A285E0B6D00675C42 /* MC2_Group2App.swift */,
-				9B9DBA4C285E0B6D00675C42 /* ContentView.swift */,
+				9B9DBA4C285E0B6D00675C42 /* onBoardingView.swift */,
+				9BB377FD286315F4007A3640 /* Launch Screen.storyboard */,
 				9B9DBA4E285E0B6E00675C42 /* Assets.xcassets */,
 				9B9DBA50285E0B6E00675C42 /* Preview Content */,
 			);
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB377FE286315F4007A3640 /* Launch Screen.storyboard in Resources */,
 				9B9DBA52285E0B6E00675C42 /* Preview Assets.xcassets in Resources */,
 				9B9DBA4F285E0B6E00675C42 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9DBA4D285E0B6D00675C42 /* ContentView.swift in Sources */,
+				9B9DBA4D285E0B6D00675C42 /* onBoardingView.swift in Sources */,
 				9B9DBA4B285E0B6D00675C42 /* MC2_Group2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
